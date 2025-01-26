@@ -1,0 +1,32 @@
+body {
+    max-width: 960px; /* Limit page width for easier design */
+    margin: 0 auto; /* Center the content horizontally */
+}
+  
+.socials a { 
+    text-decoration: none; 
+}
+.hero {
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+.hero h1 {
+    position: absolute; 
+}
+  
+.hero article {
+    position: absolute;
+    /* Add top, left, right, bottom as needed for positioning */
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px; 
+}
+  
+.hero article img {
+    float: right; /* Image floats to the right of the text */
+    margin-left: 20px; /* Space between image and text */
+}
