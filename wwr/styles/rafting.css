@@ -1,0 +1,177 @@
+:root {
+    --primary-color: #037971;  
+    --secondary-color: #e8ebf7;
+    --font-family: Lato, sans-serif; 
+  }
+
+body {
+    color: var(--primary-color);  
+    font-family: var(--font-family); 
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+h1 {
+    color: var(--secondary-color);
+  }
+h1, h2, h3, h4, h5, h6 { 
+    font-family: "Public Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
+}
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 2fr 1fr;
+	align-items: center;
+	max-width: 95%;
+}
+header nav {
+  display: flex; 
+  justify-content: flex-end;
+  gap: 1rem;
+}
+.navigation {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+.navigation a {
+	display: inline-block;
+  background-color: rgb(223, 221, 199);
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+	font-size: 1.2rem;
+}
+
+.navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
+}
+p {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    flex: 1;
+    text-align: justify;
+  }
+
+.hero {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  padding: 20px; 
+  background-image: url("/images/hero-image.avif");
+  opacity: 0.5;
+  background-size: cover; 
+  background-position: center; 
+}
+
+.hero h1 {
+  text-align: center;      
+  margin-bottom: 20px;   
+  font-size: 2.5em;
+  color: aqua;
+}
+
+.hero article {
+  display: grid;           
+  background-color: #e8ebf7;
+  padding: 10px;
+  grid-template-columns: 1fr auto; 
+  gap: 20px;           
+  align-items: center; 
+  width: 90%;
+  max-width: 900px;
+}
+
+.hero article p {
+  text-align: justify; 
+}
+
+.hero article img {
+  max-width: 200px; 
+  height: auto;   
+}
+
+.history {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.history-heading {
+  text-align: center; 
+  margin-bottom: 10px; 
+}
+
+.history-content {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.history img {
+  max-height: 100px;
+}
+.adventure {
+  text-align: center;
+  padding: 2rem; 
+}
+
+.adventure h2 {
+  margin-bottom: 1rem; 
+}
+
+.adventure figure {
+  display: inline-block; 
+  width: 15%;
+  margin: 0.5rem;
+  vertical-align: top;
+}
+
+.adventure img {
+  width: 100%; 
+  height: auto;
+  display: block;
+}
+
+.adventure figcaption {
+  margin-top: 0.5rem; 
+  font-style: italic;
+  text-align: center; 
+}
+
+footer {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center; 
+  padding: 20px;
+  margin-left: 25%;
+  margin-right: 10%;
+}
+
+.socials {
+  display: flex; 
+  flex-direction: row;
+  gap: 1rem; 
+}
+
+.socials img {
+  width: 30px; 
+  height: 30px;
+}
