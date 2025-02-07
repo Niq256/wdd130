@@ -96,6 +96,7 @@ p {
 
 .hero article p {
   text-align: justify; 
+  color: #333;
 }
 
 .hero article img {
