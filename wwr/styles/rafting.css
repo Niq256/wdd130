@@ -12,9 +12,6 @@ body {
     font-style: normal;
   }
 
-h1 {
-    color: var(--secondary-color);
-  }
 h1, h2, h3, h4, h5, h6 { 
     font-family: "Public Sans", serif;
     font-weight: 700;
