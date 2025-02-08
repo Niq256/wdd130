@@ -82,7 +82,9 @@ p {
   font-size: 2.5em;
   color: aqua;
 }
-
+.myh1 {
+  color: #005A66;
+}
 .hero article {
   display: grid;           
   background-color: #FFFFFF;
@@ -184,7 +186,6 @@ th, td {
   border: 1px solid #ddd;
   text-align: left; 
 }
-
 th {
   background-color: #f2f2f2;
 }
