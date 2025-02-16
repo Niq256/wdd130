@@ -226,3 +226,145 @@ button:hover {
   height: 100%;
   border: 0; 
 }
+
+.call-to-action {
+  text-align: center;
+  padding: 2em;
+}
+
+.call-to-action a {
+  display: inline-block;
+  padding: 1em 2em;
+  background-color: #021809;
+  color: #E4EEF1;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.trip-descriptions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 2em;
+  padding: 2em;
+}
+
+.trip {
+  border: 1px solid #ccc;
+  padding: 1em;
+}
+
+.trip img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 1em;
+}
+
+.trip h3 {
+  margin-bottom: 0.5em;
+}
+
+.trip p {
+  margin-bottom: 1em;
+}
+
+.trip a {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background-color: #021809;
+  color: #E4EEF1;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.trip-table {
+  padding: 2em;
+  overflow-x: auto; 
+}
+
+.trip-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2em;
+}
+.trip-table th, .trip-table td {
+  padding: 0.8em;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.trip-table th {
+  background-color: #f0f0f0; 
+}
+
+.hero2 {
+  position: relative;
+  width: 100%;
+  overflow: hidden; 
+}
+
+.hero2 img { 
+  width: 100%;
+  height: auto;
+  display: block; 
+}
+
+.hero2-content { 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  width: 80%;
+}
+.hero2 h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #0E1D67; /* Blue button */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.newsletter {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+.newsletter form input {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.about-us {
+  padding: 2rem;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+  gap: 2rem; /* Spacing between grid items */
+  margin-top: 2rem;
+}
+
+.grid-item {
+  text-align: center; /* Center content within grid items */
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
